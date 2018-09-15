@@ -1,6 +1,8 @@
-from django.contrib import admin
 from django import forms
+from django.contrib import admin
+
 from .models import BaseTable
+
 
 class BaseTableAdminForm(forms.ModelForm):
 
@@ -11,8 +13,8 @@ class BaseTableAdminForm(forms.ModelForm):
 
 class BaseTableAdmin(admin.ModelAdmin):
     form = BaseTableAdminForm
-    list_display = ['name', 'slug', 'created', 'last_updated', 'CustomerID', 'Account']
-    readonly_fields = ['name', 'slug', 'created', 'last_updated', 'CustomerID', 'Account']
+    list_display = ['name', 'CustomerID', 'Account']
+    readonly_fields = ['name', 'CustomerID', 'Account']
 
 admin.site.register(BaseTable, BaseTableAdmin)
 
