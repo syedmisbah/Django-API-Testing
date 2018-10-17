@@ -1,1 +1,1 @@
-{"PromoCalendar": [{"week":1, "products":[{"product":"product1", "sku":"sku1", "price":11.3}, {"product":"product2", "sku":"sku2", "price":12.4}]}, {"week":2, "products":[{"product":"product1", "sku":"sku1", "price":7.2}, {"product":"product2", "sku":"sku2", "price":13.3}]}, {"week":3, "products":[{"product":"product1", "sku":"sku1", "price":19}, {"product":"product2", "sku":"sku2", "price":16.4}]}]}
+{"PromoCalendar": 2}
